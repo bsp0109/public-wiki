@@ -125,9 +125,20 @@ del {
   padding: 2px;
 }
 
-.header a {
+.header > a {
+  color: white;
   text-decoration: none;
-  color: inherit;
+  font-size: 0.7em;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: #1e90ff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header > a:hover {
+  color: #dcdcdc;
+  background-color: #484848;
 }
 
 /* classes for items of todo lists */
